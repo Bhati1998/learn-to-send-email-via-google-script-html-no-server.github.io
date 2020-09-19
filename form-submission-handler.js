@@ -28,7 +28,7 @@
       // singular form elements just have one value
       formData[name] = element.value;
 
-      // when our element has multiple items, get their values
+      // when our element has multiple items, get their values.
       if (element.length) {
         var data = [];
         for (var i = 0; i < element.length; i++) {
